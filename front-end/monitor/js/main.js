@@ -4,7 +4,7 @@ function callAPIRequest(estatus){
 
 
 // Hacer una petición para un usuario con ID especifico
-axios.get('http://3.140.245.37/iot-car-control/back-end/apis/getRegistro.php')
+axios.get('https://3.140.245.37/iot-car-control/back-end/apis/getRegistro.php')
   .then(function (response) {
     // manejar respuesta exitosa
     console.log(response);
