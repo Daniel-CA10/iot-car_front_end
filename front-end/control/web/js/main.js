@@ -28,7 +28,6 @@ axios.get('https://3.140.245.37/iot-car-control/back-end/apis/setRegistro.php?va
 adelante.addEventListener("click",function()
 {
     callAPI("f");
-    callAPI("s");
 })
 
 atras.addEventListener("click",function()
